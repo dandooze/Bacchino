@@ -26,10 +26,10 @@ into the {body} of the default.hbs template --}}
 
         <div class="post-feed">
             {{#foreach posts visibility="all"}}
-
+              {{^has tag="#rivista"}}
                 {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
                 {{> "post-card"}}
-
+              {{/has}}
             {{/foreach}}
         </div>
 
