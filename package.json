@@ -1,8 +1,8 @@
 {
-    "name": "lyra",
+    "name": "alyra",
     "description": "A premium publication theme for Ghost.",
     "demo": "https://lyra.ghost.io",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -21,9 +21,9 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Alessandro Pagnini",
+        "email": "alessandro.pagnini@gmail.com",
+        "url": ""
     },
     "gpm": {
         "type": "theme",

@@ -1,11 +1,17 @@
 routes:
+  /: home
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
 
 collections:
-  /:
-    permalink: /{slug}/
+  /blog/:
+    permalink: /blog/{slug}/
+    filter: tag:blog+tag:-rivista
+    template: index
+  /rivista/:
+    permalink: /rivista/{slug}/
+    filter: tag:rivista+tag:-blog
     template: index
 
 taxonomies:
