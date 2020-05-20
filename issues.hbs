@@ -25,12 +25,21 @@ into the {body} of the default.hbs template --}}
     <div class="inner posts">
 
         <div class="post-feed">
+          {{#get "tags" limit="all" include="count.posts" filter="tag:numero-1" order="count.posts desc"}}
+          <ul>
+            {{#foreach tags}}
+              <a href='{{ url }}'>
+                <li>{{ name }} <small>({{ count.posts }})</small></li>
+              </a>
+            {{/foreach}}
+          </ul>
+          {{/get}}
 
-          {{#get "posts" include="tags,authors"}}
+          <!-- {{#get "posts" include="tags,authors"}}
             {{#foreach posts visibility="all"}}
               {{> "post-card"}}
             {{/foreach}}
-          {{/get}}
+          {{/get}} -->
         </div>
 
     </div>
