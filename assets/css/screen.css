@@ -34,6 +34,9 @@ production stylesheet in assets/built/screen.css
 
 body {
     background: #fff;
+    font-family: ff-meta-serif-web-pro, serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .img {
@@ -299,6 +302,9 @@ body {
     align-items: flex-start;
     height: 64px;
     font-size: 1.3rem;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .site-nav-left {
@@ -726,7 +732,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-excerpt {
     max-width: 56em;
     color: var(--midgrey);
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
 }
 
 .post-card-excerpt p {
@@ -821,6 +827,9 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     font-weight: 400;
     letter-spacing: 0.2px;
     text-transform: uppercase;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .post-card-byline-content span {
@@ -981,8 +990,10 @@ make sure this only happens on large viewports / desktop-ish devices.
     color: var(--midgrey);
     font-size: 1.3rem;
     line-height: 1.4em;
-    font-weight: 600;
     text-transform: uppercase;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .post-full-meta-date {
@@ -1018,7 +1029,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-custom-excerpt {
     margin: 20px 0 0;
     color: var(--midgrey);
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
     font-size: 2.3rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -1051,7 +1062,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 0 auto;
     padding: 0 170px 5vw;
     min-height: 230px;
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
     font-size: 2.0rem;
     line-height: 1.6em;
     background: #fff;
@@ -1295,7 +1306,8 @@ Usage (In Ghost editor):
 .post-full-content h5,
 .post-full-content h6 {
     color: color(var(--darkgrey) l(-5%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .post-full-content h1 {
@@ -1373,7 +1385,7 @@ Usage (In Ghost editor):
     padding: 0.4em 1em 0.9em;
     border: 0;
     color: var(--blue);
-    font-family: Georgia,serif;
+    /* font-family: Georgia,serif; */
     font-size: 3.2rem;
     line-height: 1.35em;
     text-align: center;
@@ -1480,7 +1492,9 @@ Usage (In Ghost editor):
     width: auto;
     border-spacing: 0;
     border-collapse: collapse;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.6rem;
     white-space: nowrap;
     vertical-align: top;
@@ -1539,6 +1553,9 @@ Usage (In Ghost editor):
     flex-grow: 1;
     display: flex;
     align-items: flex-start;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .post-full-byline-content .author-list {
@@ -2039,7 +2056,10 @@ Usage (In Ghost editor):
     margin-top: 2px;
     font-size: 1.2rem;
     line-height: 1.4em;
-    font-weight: 400;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
 }
 
 .read-next-card-meta p {
@@ -2141,7 +2161,9 @@ Usage (In Ghost editor):
 .post-full-content figcaption {
     margin: 1.0em auto 0;
     color: color(var(--midgrey) l(-10%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 75%;
     line-height: 1.5em;
     text-align: center;
@@ -2227,7 +2249,9 @@ Usage (In Ghost editor):
     display: flex;
     min-height: 148px;
     color: var(--darkgrey);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     text-decoration: none;
     border-radius: 3px;
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
@@ -2556,6 +2580,9 @@ Usage (In Ghost editor):
     padding-bottom: 10vw;
     border-bottom: 1px solid color(var(--lightgrey) l(+10%));
     text-align: center;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .error-code {
@@ -2766,7 +2793,7 @@ Usage (In Ghost editor):
     margin: 0 auto 50px;
     max-width: 650px;
     color: #fff;
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
     font-size: 2.4rem;
     line-height: 1.3em;
     font-weight: 300;
@@ -3490,6 +3517,9 @@ form[data-members-form].error .message-error {
     display: flex;
     align-items: center;
     margin: 0 0 0.2em;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .post-visibility {
@@ -3520,7 +3550,9 @@ form[data-members-form].error .message-error {
     max-width: 840px;
     width: 90vw;
     color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     text-align: center;
     background: color(var(--blue) l(-5%));
     border-radius: 5px;
