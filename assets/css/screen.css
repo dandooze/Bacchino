@@ -121,8 +121,8 @@ body {
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: var(--qpblack);
+    background: color(var(--qpyellow) l(-5%)) no-repeat center center;
     background-size: cover;
 }
 
@@ -291,7 +291,8 @@ body {
     right: 0;
     left: 0;
     z-index: 1000;
-    background: color(var(--darkgrey) l(-5%));
+    /* background: color(var(--darkgrey) l(-5%)); */
+    background: color(var(--qpyellow));
 }
 
 .site-nav {
@@ -370,7 +371,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: inline-block;
     margin-right: 32px;
     padding: 12px 0;
-    color: #fff;
+    color: var(--qpblack);
     font-size: 1.7rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -417,9 +418,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     padding: 12px 12px;
-    color: #fff;
+    color: var(--qpblack);
     opacity: 0.8;
     transition: opacity 0.35s ease-in-out;
+    font-weight: 600;
 }
 
 .nav li a:hover {
@@ -434,7 +436,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     bottom: 8px;
     left: 12px;
     height: 1px;
-    background: #fff;
+    background: var(--qpblack);
     opacity: 0.25;
     transition: all 0.35s ease-in-out;
 }
@@ -454,7 +456,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     visibility: hidden;
     position: absolute;
     top: 9px;
-    color: #fff;
+    color: var(--qpblack);
     font-size: 1.7rem;
     font-weight: 400;
     text-transform: none;
@@ -489,7 +491,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .site-nav-right a {
-    color: #fff;
+    color: var(--qpblack);
 }
 
 .button.small.signout-link {
@@ -597,7 +599,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .account-menu ul a:hover {
-    color: var(--blue);
+    color: var(--qpblue);
     text-decoration: none;
 }
 
@@ -706,7 +708,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-primary-tag {
-    color: var(--blue);
+    color: var(--qpblue);
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -1140,9 +1142,9 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-content a:hover {
-    color: var(--blue);
+    color: var(--qpblue);
     text-decoration: none;
-    box-shadow: var(--blue) 0 -1px 0 inset;
+    box-shadow: var(--qpblue) 0 -1px 0 inset;
 }
 
 .post-full-content strong,
@@ -1384,7 +1386,7 @@ Usage (In Ghost editor):
     margin: 0.5em 0;
     padding: 0.4em 1em 0.9em;
     border: 0;
-    color: var(--blue);
+    color: var(--qpblue);
     /* font-family: Georgia,serif; */
     font-size: 3.2rem;
     line-height: 1.35em;
@@ -1431,7 +1433,7 @@ Usage (In Ghost editor):
 }
 
 .footnote-backref {
-    color: var(--blue) !important;
+    color: var(--qpblue) !important;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none !important;
@@ -1576,7 +1578,7 @@ Usage (In Ghost editor):
     margin: 0 0 3px;
     font-size: 1.3rem;
     line-height: 1.4em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .post-full-byline-meta h4 a {
@@ -1808,10 +1810,10 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
+    color(var(--qpblue) whiteness(+7%)),
+    color(var(--qpblue) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--qpblue) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--qpblue) lightness(-4%) saturation(-10%))
     );
     border-radius: 5px;
 
@@ -1820,7 +1822,7 @@ Usage (In Ghost editor):
 
 .subscribe-form button:active,
 .subscribe-form button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color(var(--qpblue) lightness(-9%) saturation(-10%));
 }
 
 .subscribe-form .button-loader,
@@ -2162,7 +2164,7 @@ Usage (In Ghost editor):
     margin: 1.0em auto 0;
     color: color(var(--midgrey) l(-10%));
     font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
     font-size: 75%;
     line-height: 1.5em;
@@ -2281,7 +2283,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content .kg-bookmark-container:hover .kg-bookmark-title {
-    color: var(--blue);
+    color: var(--qpblue);
 }
 
 .kg-bookmark-description {
@@ -2846,10 +2848,10 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
+    color(var(--qpblue) whiteness(+7%)),
+    color(var(--qpblue) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--qpblue) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--qpblue) lightness(-4%) saturation(-10%))
     );
     border-radius: 8px;
 
@@ -2858,7 +2860,7 @@ Usage (In Ghost editor):
 
 .subscribe-overlay button:active,
 .subscribe-overlay button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color(var(--qpblue) lightness(-9%) saturation(-10%));
 }
 
 .subscribe-overlay .loading .button-loader {
@@ -2947,7 +2949,7 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-    border-color: var(--blue);
+    border-color: var(--qpblue);
 }
 
 .button {
@@ -2993,26 +2995,26 @@ textarea:focus {
 }
 
 .button {
-    color: var(--blue);
+    color: var(--qpblue);
     background-color: transparent;
-    box-shadow: inset 0 0 0 1px var(--blue);
+    box-shadow: inset 0 0 0 1px var(--qpblue);
 }
 
 .button:hover {
-    color: color(var(--blue) l(-15%));
+    color: color(var(--qpblue) l(-15%));
     text-decoration: none;
-    box-shadow: inset 0 0 0 1px color(var(--blue) l(-10%));
+    box-shadow: inset 0 0 0 1px color(var(--qpblue) l(-10%));
     transition: 0.2s ease;
 }
 
 .button.primary {
     color: #fff;
-    background-color: var(--blue);
+    background-color: var(--qpblue);
     box-shadow: none;
 }
 
 .button.primary:hover {
-    background-color: color(var(--blue) l(-10%));
+    background-color: color(var(--qpblue) l(-10%));
 }
 
 .site-signup {
@@ -3148,7 +3150,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    border-top: var(--blue) 6px solid;
+    border-top: var(--qpblue) 6px solid;
     color: color(var(--midgrey) l(-30%));
     text-align: left;
     background: #fff;
@@ -3437,7 +3439,7 @@ form[data-members-form].error .message-error {
     padding: 0 1.8rem;
     height: 44px;
     border: 0;
-    color: var(--blue);
+    color: var(--qpblue);
     font-size: 1.5rem;
     line-height: 42px;
     font-weight: 600;
@@ -3446,7 +3448,7 @@ form[data-members-form].error .message-error {
     white-space: nowrap;
     background-color: transparent;
     border-radius: 5px;
-    box-shadow: inset 0 0 0 1px var(--blue);
+    box-shadow: inset 0 0 0 1px var(--qpblue);
     cursor: pointer;
     transition: 0.4s ease;
 
@@ -3454,10 +3456,10 @@ form[data-members-form].error .message-error {
 }
 
 .subscription-actions li a:hover {
-    color: color(var(--blue) l(-15%));
+    color: color(var(--qpblue) l(-15%));
     text-decoration: none;
     text-decoration: none;
-    box-shadow: inset 0 0 0 1px color(var(--blue) l(-10%));
+    box-shadow: inset 0 0 0 1px color(var(--qpblue) l(-10%));
     transition: 0.2s ease;
 }
 
@@ -3473,13 +3475,13 @@ form[data-members-form].error .message-error {
 
 .gh-subscription-cancel[data-members-continue-subscription] {
     color: #fff;
-    background-color: var(--blue);
+    background-color: var(--qpblue);
     box-shadow: none;
 }
 
 .gh-subscription-cancel[data-members-continue-subscription]:hover {
     color: #fff;
-    background-color: color(var(--blue) l(-10%));
+    background-color: color(var(--qpblue) l(-10%));
     box-shadow: none;
 }
 
@@ -3554,7 +3556,7 @@ form[data-members-form].error .message-error {
     font-weight: 600;
     font-style: normal;
     text-align: center;
-    background: color(var(--blue) l(-5%));
+    background: color(var(--qpblue) l(-5%));
     border-radius: 5px;
 }
 
@@ -3569,7 +3571,7 @@ form[data-members-form].error .message-error {
 .post-upgrade-cta .button,
 .post-upgrade-cta .button:hover {
     margin: 30px 0;
-    color: var(--blue);
+    color: var(--qpblue);
     text-decoration: none;
     background: #fff;
     box-shadow: none;

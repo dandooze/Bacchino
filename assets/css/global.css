@@ -15,6 +15,11 @@
     --pink: #fa3a57;
     --brown: #a3821a;
     --darkmode: color(var(--darkgrey) l(+2%));
+
+    --qpyellow: #FFE92D;
+    --qpblack: #181818;
+    --qpgrey: #383E42;
+    --qpblue: #4781FF;
 }
 
 /* Reset
@@ -298,7 +303,7 @@ body {
 
 ::selection {
     text-shadow: none;
-    background: color(var(--blue) lightness(+30%));
+    background: color(var(--qpblue) lightness(+30%));
 }
 
 hr {
@@ -416,7 +421,7 @@ blockquote cite a {
 }
 
 a {
-    color: color(var(--blue) l(-5%));
+    color: color(var(--qpblue) l(-5%));
     text-decoration: none;
 }
 
