@@ -16,10 +16,18 @@
     --brown: #a3821a;
     --darkmode: color(var(--darkgrey) l(+2%));
 
-    --qpyellow: #FFE92D;
+    /* QP Colours */
+    --qpyellow: #FFDD15;
     --qpblack: #181818;
     --qpgrey: #383E42;
-    --qpblue: #4781FF;
+    --qpblue: #2FB0FF;
+    --qpgreen: #146428;
+
+    /* QP Typography */
+
+    --typo-sans: trade-gothic-next;
+    --typo-serif: ff-meta-serif;
+
 }
 
 /* Reset

@@ -303,7 +303,7 @@ body {
     align-items: flex-start;
     height: 64px;
     font-size: 1.3rem;
-    font-family: ff-meta-web-pro, sans-serif;
+    font-family: var(--typo-sans), sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -348,7 +348,7 @@ body {
     .site-header-background:not(.responsive-header-img) .site-nav-left:after,
     .site-nav-main .site-nav-left:after {
         right: 10px;
-        background: linear-gradient(to right, color(var(--darkgrey) l(-5%) a(0)) 0%,color(var(--darkgrey) l(-5%)) 100%);
+        background: linear-gradient(to right, color(var(--qpyellow) l(-5%) a(0)) 0%,color(var(--qpyellow) l(-5%)) 100%);
     }
 
     .nav li:last-of-type {
@@ -372,6 +372,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin-right: 32px;
     padding: 12px 0;
     color: var(--qpblack);
+    font-family: var(--typo-serif);
     font-size: 1.7rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -710,7 +711,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-primary-tag {
     color: var(--qpblue);
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.2px;
     text-transform: uppercase;
 }
@@ -734,6 +735,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-excerpt {
     max-width: 56em;
     color: var(--midgrey);
+    font-family: var(--typo-sans);
     /* font-family: Georgia, serif; */
 }
 
@@ -829,7 +831,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     font-weight: 400;
     letter-spacing: 0.2px;
     text-transform: uppercase;
-    font-family: ff-meta-web-pro, sans-serif;
+    font-family: var(--typo-sans), sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -993,7 +995,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     font-size: 1.3rem;
     line-height: 1.4em;
     text-transform: uppercase;
-    font-family: ff-meta-web-pro, sans-serif;
+    font-family: var(--typo-sans), sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -1032,6 +1034,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 20px 0 0;
     color: var(--midgrey);
     /* font-family: Georgia, serif; */
+    font-family: var(--typo-sans);
     font-size: 2.3rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -1494,7 +1497,7 @@ Usage (In Ghost editor):
     width: auto;
     border-spacing: 0;
     border-collapse: collapse;
-    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--typo-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1.6rem;
@@ -1555,7 +1558,7 @@ Usage (In Ghost editor):
     flex-grow: 1;
     display: flex;
     align-items: flex-start;
-    font-family: ff-meta-web-pro, sans-serif;
+    font-family: var(--typo-sans), sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -1988,6 +1991,7 @@ Usage (In Ghost editor):
     font-size: 1.2rem;
     line-height: 1em;
     font-weight: 300;
+    font-family: var(--typo-sans);
     letter-spacing: 0.4px;
     text-transform: uppercase;
 }
@@ -2058,7 +2062,7 @@ Usage (In Ghost editor):
     margin-top: 2px;
     font-size: 1.2rem;
     line-height: 1.4em;
-    font-family: ff-meta-web-pro, sans-serif;
+    font-family: var(--typo-sans), sans-serif;
     font-weight: 600;
     font-style: normal;
 
@@ -2070,6 +2074,7 @@ Usage (In Ghost editor):
 }
 
 .read-next-card-footer {
+    font-family: var(--typo-sans);
     position: relative;
     margin: 40px 0 5px;
 }
@@ -2163,7 +2168,7 @@ Usage (In Ghost editor):
 .post-full-content figcaption {
     margin: 1.0em auto 0;
     color: color(var(--midgrey) l(-10%));
-    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--typo-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 75%;
@@ -2251,7 +2256,7 @@ Usage (In Ghost editor):
     display: flex;
     min-height: 148px;
     color: var(--darkgrey);
-    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--typo-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-style: normal;
     text-decoration: none;
@@ -2582,7 +2587,7 @@ Usage (In Ghost editor):
     padding-bottom: 10vw;
     border-bottom: 1px solid color(var(--lightgrey) l(+10%));
     text-align: center;
-    font-family: ff-meta-web-pro, sans-serif;
+    font-family: var(--typo-sans), sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -2872,6 +2877,7 @@ Usage (In Ghost editor):
 /* ---------------------------------------------------------- */
 
 .site-footer {
+    font-family: var(--typo-sans);
     position: relative;
     padding-top: 20px;
     padding-bottom: 60px;
@@ -3519,8 +3525,8 @@ form[data-members-form].error .message-error {
     display: flex;
     align-items: center;
     margin: 0 0 0.2em;
-    font-family: ff-meta-web-pro, sans-serif;
-    font-weight: 600;
+    font-family: var(--typo-sans), sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -3552,7 +3558,7 @@ form[data-members-form].error .message-error {
     max-width: 840px;
     width: 90vw;
     color: #fff;
-    font-family: ff-meta-web-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--typo-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
