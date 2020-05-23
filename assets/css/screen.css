@@ -847,6 +847,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-byline-date {
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .post-card-byline-date .bull {
@@ -1559,7 +1560,6 @@ Usage (In Ghost editor):
     display: flex;
     align-items: flex-start;
     font-family: var(--typo-sans), sans-serif;
-    font-weight: 600;
     font-style: normal;
 }
 
@@ -2965,6 +2965,7 @@ textarea:focus {
     border: 0;
     font-size: 1.5rem;
     line-height: 42px;
+    font-family: var(--typo-sans);
     font-weight: 600;
     text-align: center;
     text-decoration: none;
@@ -3044,6 +3045,7 @@ textarea:focus {
 
 .signup-form p {
     color: var(--midgrey);
+    font-family: var(--typo-sans);
     font-size: 1.3em;
 }
 
@@ -3094,6 +3096,7 @@ textarea:focus {
 
 .signin-form p {
     color: var(--midgrey);
+    font-family: var(--typo-sans);
     font-size: 1.3em;
 }
 
@@ -3285,6 +3288,7 @@ form[data-members-form].error .message-error {
     margin: 0 auto;
     padding: 10px 0;
     color: #fff;
+    font-family: var(--typo-sans);
     font-size: 1.4rem;
     line-height: 1.5em;
     font-weight: 500;

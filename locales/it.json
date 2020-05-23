@@ -6,6 +6,25 @@
   "See all % posts": "Vedi % post",
   "Already have an account?": "Sei già iscritto?",
   "This post is for paying subscribers only": "Questo post è disponibile solo per gli abbonati",
-  "This post is for subscribers only": "Questo post è disponibile solo per gli iscritti",
-  "no-access-excerpt": "Che peccato! Purtroppo non puoi leggere questo post su {sitetitle} perché è riservato agli abbonati. Ma non preoccuparti, iscriviti o fai l'upgrade del tuo account e potrai leggere questo tanti altri articoli. Iscriversi è semplicissimo, ti bastano pochi secondi e avrai accesso immediato!"
+  "This post is for subscribers only": "Questo articolo è disponibile solo per gli iscritti",
+  "no-access-excerpt": "Che peccato! Purtroppo non puoi leggere questo articolo su {sitetitle} perché è riservato agli abbonati. Ma non preoccuparti, iscriviti o fai l'upgrade del tuo account e potrai leggere questo e tanti altri articoli. Iscriversi è semplicissimo, ti bastano pochi secondi e avrai accesso immediato!",
+  "footer-legal": "Quaderno Pratese è una testata giornalistica registrata al Tribunale di Prato, 1243 del 23/07/2018. ROC N. 32101. Direttore Responsabile Alessandro Pattume.",
+  "Multiple authors": "Più autori",
+  "1 min read": "1 min di lettura",
+  "% min read": "% min di lettura",
+  "Subscribe": "Iscriviti",
+  "Signup to {sitetitle}": "Iscriviti a {sitetitle}",
+  "Sign in": "Fai Login",
+  "Continue": "Avanti",
+  "Type your email...": "La tua email...",
+  "Welcome back!": "Bentornato",
+  "Sign into your account again for full access": "Fai login per accedere a tutti i contenuti del sito",
+  "Your email address": "Il tuo indirizzo email",
+  "Send login link": "Login link",
+  "Don't have an account yet?": "Non hai ancora un account?",
+  "Sign up": "Iscriviti",
+  "Great!": "Ottimo!",
+  "Check your inbox and click the link to complete signin": "Controlla la tua casella di posta e clicca sul link per completare l'accesso",
+  "Please enter a valid email address!": "Inserisci un indirizzo email valido per favore!"
+
 }

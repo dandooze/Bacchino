@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] - 2020-05-23
+### New
+* More translations on the signin page
+
+### Fixed
+* Header bar on iOS and Android
+* Post meta font weight
+
 ## [0.1.3] - 2020-05-22
 ### New
 * Header bar on iOS and Android
