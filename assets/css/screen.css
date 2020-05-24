@@ -2667,6 +2667,8 @@ Usage (In Ghost editor):
     background: color(var(--green) l(-5%));
     transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
     transform: translateY(-175%);
+    font-family: var(--typo-sans);
+    font-weight: 600;
 }
 
 .subscribe-success .notification-subscribe {
@@ -3397,6 +3399,7 @@ form[data-members-form].error .message-error {
 
 .subscription {
     padding: 20px 0 40px;
+    font-family: var(--typo-sans);
 }
 
 .subscription-expiration-warning {
@@ -3505,6 +3508,7 @@ form[data-members-form].error .message-error {
 .account-box {
     display: flex;
     flex-direction: column;
+    font-family: var(--typo-sans);
     align-items: center;
     margin: 0 auto;
     max-width: 560px;

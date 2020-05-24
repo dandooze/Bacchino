@@ -25,6 +25,18 @@
   "Sign up": "Iscriviti",
   "Great!": "Ottimo!",
   "Check your inbox and click the link to complete signin": "Controlla la tua casella di posta e clicca sul link per completare l'accesso",
-  "Please enter a valid email address!": "Inserisci un indirizzo email valido per favore!"
-
+  "Please enter a valid email address!": "Inserisci un indirizzo email valido per favore!",
+  "Your account": "Il tuo abbonamento",
+  "Your subscription will expire on": "Il tuo abbonamento scadrà il",
+  "If you change your mind in the meantime you can turn auto-renew back on to continue your subscription": "Se hai cambiato idea, puoi sempre riattivare il rinnovo automatico per non perdere nemmeno un articolo!",
+  "active-subscription-text": "Ciao, il tuo abbonamento è attivo e ti garantisce l'accesso a tutti gli articoli di {site_title}. Scrivici per qualsiasi problema o nel caso avessi bisogno di aiuto per aggiornare il tuo account. E grazie per essere un abbonato!",
+  "Email address": "Indirizzo email",
+  "Your plan": "Abbonamento",
+  "Card": "Carta",
+  "Expires": "Termina",
+  "Next bill date": "Prossimo rinnovo",
+  "Edit billing info": "Modifica pagamento",
+    "Currently, you're not a subscriber": "Al momento sei iscritto ma non abbonato",
+  "subscribed-not-member": "Ciao! Sei iscritto a <strong>{site_title}</strong> con l'indirizzo <strong>{member_email}</strong>, ma al momento non hai un abbonamento attivo per poter accedere a tutti gli articoli.",
+  "Subscribe now": "Abbonati adesso"
 }
