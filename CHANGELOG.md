@@ -1,10 +1,14 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
+
+## [0.1.6] - 2020-05-24
+### Fixed
+* Home page post filtered by tag, descending order
+
 ## [0.1.5] - 2020-05-24
 ### New
 * Translations & font style on the account page
-
 
 ## [0.1.4] - 2020-05-23
 ### New
