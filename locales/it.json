@@ -1,9 +1,11 @@
 {
   "Free Post": "Pubblico",
   "More in":  "Altro in",
-  "No posts": "Nessun post",
-  "% post":   "% post",
-  "See all % posts": "Vedi % post",
+  "No posts": "nessun articolo",
+  "1 post": "un articolo",
+  "% post":   "% articoli",
+  "% posts": "% articoli",
+  "See all % posts": "Vedi % articoli",
   "Already have an account?": "Sei già iscritto?",
   "This post is for paying subscribers only": "Questo post è disponibile solo per gli abbonati",
   "This post is for subscribers only": "Questo articolo è disponibile solo per gli iscritti",
@@ -38,5 +40,7 @@
   "Edit billing info": "Modifica pagamento",
     "Currently, you're not a subscriber": "Al momento sei iscritto ma non abbonato",
   "subscribed-not-member": "Ciao! Sei iscritto a <strong>{site_title}</strong> con l'indirizzo <strong>{member_email}</strong>, ma al momento non hai un abbonamento attivo per poter accedere a tutti gli articoli.",
-  "Subscribe now": "Abbonati adesso"
-}
+  "Subscribe now": "Abbonati adesso",
+  "A collection of": "Ne abbiamo parlato in",
+  "author-contribution": "Ha scritto" 
+ }

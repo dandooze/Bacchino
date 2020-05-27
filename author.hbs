@@ -7,7 +7,8 @@
 
 <header class="site-archive-header">
     {{> site-header}}
-    {{> header-background background=cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
+    {{!-- {{> header-background background=cover_image}} header-image.hbs partial to generate the background image has been removed--}}
+    <div class="outer site-header-background no-image">
         <div class="inner">
             <div class="site-header-content author-header">
                 {{#if profile_image}}
@@ -25,7 +26,7 @@
                             <div class="author-location">{{location}}</div>
                         {{/if}}
                         <div class="author-stats">
-                            {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}
+                            {{t "author-contribution"}} {{plural ../pagination.total empty=(t "No posts") singular=(t "1 post") plural=(t "% posts")}}
                         </div>
                         {{#if website}}
                             <span class="author-social-link"><a href="{{website}}" target="_blank" rel="noopener">Website</a></span>

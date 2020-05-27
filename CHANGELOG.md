@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.7] - 2020-05-27
+### New
+* Typography and translations on tag and author header
+
 ## [0.1.6] - 2020-05-24
 ### Fixed
 * Home page post filtered by tag, descending order
