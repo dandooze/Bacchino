@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.2.0] - 2020-05-27
+## New
+* Subscribe CTA on Public Posts!
+
+### [0.1.9] - 2020-05-27
+## New
+* Secondary navigation (Instagram)
+* Account menu: translations
+
+## Fixed
+* Reverted all tags in the post detail to the main tag
+* Copy on the account pages
+
 ### [0.1.8] - 2020-05-27
 ## New
 * All tags in the post detail

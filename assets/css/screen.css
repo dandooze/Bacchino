@@ -3577,6 +3577,7 @@ form[data-members-form].error .message-error {
 
 .post-upgrade-cta-content h2 {
     margin: 0;
+    margin-bottom: 1rem;
     color: #fff;
     font-size: 2.6rem;
     font-weight: 600;
@@ -3593,7 +3594,9 @@ form[data-members-form].error .message-error {
 }
 
 .post-upgrade-cta p {
+    font-weight: 500;
     margin: 0;
+
 }
 
 .post-upgrade-cta a,
