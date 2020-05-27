@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.8] - 2020-05-27
+### New
+* All tags in the post detail
+
 ## [0.1.7] - 2020-05-27
 ### New
 * Typography and translations on tag and author header
