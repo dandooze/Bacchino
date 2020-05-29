@@ -3130,6 +3130,7 @@ textarea:focus {
 }
 
 .checkout-form {
+    font-family: var(--typo-sans);
     margin: 0 auto 10vw;
     max-width: 700px;
     width: 100%;
