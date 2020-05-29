@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.2.3] - 2020-05-30
+## New
+* Current plan on signup
+
+
+### [0.2.2] - 2020-05-30
+## New
+* Translation on signup page
+* Translation on success/error messages
+
 ### [0.2.1] - 2020-05-28
 ## New
 * Logo size on cover and menu
