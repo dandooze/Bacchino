@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.2.4] - 2020-06-13
+## Fix
+* Changed copy on the renew/cancel subscription
+
 ### [0.2.3] - 2020-05-30
 ## New
 * Current plan on signup

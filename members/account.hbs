@@ -20,8 +20,8 @@
                             {{/if}}
                             {{#if cancel_at_period_end}}
                                 <p>
-                                    <strong class="subscription-expiration-warning">{{t "Your subscription will expire on"}} {{ date current_period_end format="DD MMM YYYY"}}.</strong><br>
-                                    {{t "If you change your mind in the meantime you can turn auto-renew back on to continue your subscription"}}
+                                    <strong class="subscription-expiration-warning">{{t "Your subscription will expire on"}} {{ date current_period_end format="DD MMM YYYY"}} {{t "not-renew"}}</strong><br>
+                                    {{{t "If you change your mind in the meantime you can turn auto-renew back on to continue your subscription"}}}
                                 </p>
                             {{else}}
                                 <p>
@@ -73,7 +73,7 @@
                                 data-members-cancel="/account/?stripe=billing-update-cancel">{{t "Edit billing info"}}</a></li>
                         <li>{{cancel_link
                               cancelLabel="Cancella abbonamento"
-                              continueLabel="Continua!"
+                              continueLabel="Ripristina"
                             }}</li>
                     </ul>
                 </div>
