@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.3.0] - 2020-06-17
+## New
+* Search!
+
 ### [0.2.4] - 2020-06-13
 ## Fix
 * Changed copy on the renew/cancel subscription

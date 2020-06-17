@@ -10,10 +10,14 @@ collections:
     permalink: /blog/{slug}/
     filter: tag:blog+tag:-rivista
     template: index
+    data: 
+      post: page.blog
   /rivista/:
     permalink: /rivista/{slug}/
     filter: tag:rivista+tag:-blog
     template: index
+    data:
+      post: page.rivista
 
 taxonomies:
   tag: /tag/{slug}/
