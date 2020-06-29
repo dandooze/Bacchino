@@ -1,0 +1,76 @@
+{{!< ../default}}
+
+<header class="site-header">
+    {{> site-header}}
+</header>
+<main id="site-main" class="site-main site-signup outer">
+    <div class="inner">
+
+    {{#if @member.paid}}
+
+        {{!-- Logged in, paying member: Redirect home --}}
+        <script>window.location = '{{@site.url}}/account/';</script>
+
+    {{else }}
+
+        {{!-- Logged in, not paying: Check out --}}
+        <div class="checkout-form">
+            <h1 class="checkout-title">{{t "Choose your subscription"}}</h1>
+            <p>{{{t "Unlock full access to {sitetitle} and see the entire library of members-only content & updates" sitetitle=@site.title}}}</p>
+            <div class="checkout-box">
+                <div class="checkout-plan">
+                    <header class="checkout-plan-header">
+                        <h3>{{t "Gratis"}}</h3>
+                        <span>{{@price.currency_symbol}}</span><strong>0</strong> / {{t "month"}}
+                    </header>
+                    <div class="checkout-plan-content">
+                        <ul>
+                            <li>{{t "Access to public posts"}}</li>
+                            <li>{{t "Access to subscribed posts"}}</li>
+                            <li>{{t "Weekly newsletter"}}</li>
+                        </ul>
+                        {{#if @member}}
+                            <a class="button primary disabled fit">{{t "Current plan"}}</a>
+                        {{else }}
+                            <a class="button primary fit" href="{{@site.url}}/signin/">{{t "Choose this plan"}}</a>
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="checkout-plan">
+                    <header class="checkout-plan-header">
+                        <h3>{{t "Monthly"}}</h3>
+                        <span>{{@price.currency_symbol}}</span><strong>{{@price.monthly}}</strong> / {{t "month"}}
+                    </header>
+                    <div class="checkout-plan-content">
+                        <ul>
+                            <li>{{t "Monthly access to all private posts"}}</li>
+                            <li>{{t "Weekly newsletter"}}</li>
+                            <li>{{t "Support independent publishing"}}</li>
+                            <li>{{t "No adv"}}</li>
+                        </ul>
+                        <a class="button primary fit" href="javascript:" data-members-plan="Monthly">{{t "Choose this plan"}}</a>
+                    </div>
+                </div>
+                <div class="checkout-plan">
+                    <header class="checkout-plan-header">
+                        <h3>{{t "Yearly"}}</h3>
+                        <span>{{@price.currency_symbol}}</span>
+                        <strong>14,90</strong> / {{t "year"}}
+                    </header>
+                    <div class="checkout-plan-content">
+                        <ul>
+                            <li>{{t "Full access to all private posts"}}</li>
+                            <li>{{t "Weekly newsletter"}}</li>
+                            <li>{{t "Digital publication"}}</li>
+                            <li>{{t "Support independent publishing"}}</li>
+                            <li>{{t "No adv"}}</li>
+                        </ul>
+                        <a class="button primary fit" href="javascript:" data-members-plan="Yearly">{{t "Choose this plan"}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {{/if}}
+    </div>
+</main>

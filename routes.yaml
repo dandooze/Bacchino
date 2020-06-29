@@ -3,6 +3,7 @@ routes:
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
+  /abbonamenti/: members/membership
   /numeri/: issues
 
 collections:

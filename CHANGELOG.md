@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.0] - 2020-06-29
+## New
+* Membership page
+
+## Fixed
+Translations
+
 ### [0.3.0] - 2020-06-17
 ## New
 * Search!
