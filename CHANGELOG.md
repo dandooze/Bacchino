@@ -1,6 +1,10 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
+### [0.4.2] - 2020-06-29
+## Fixed
+* Prices in membership and signup page
+
 ### [0.4.1] - 2020-06-29
 ## Fixed
 * SignUp link in membership page
