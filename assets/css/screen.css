@@ -3077,6 +3077,13 @@ textarea:focus {
         width: 100%;
     }
 }
+.signup-privacy {
+    color: var(--midgrey);
+    font-family: var(--typo-sans);
+    padding: 8px;
+    text-align: left;
+}
+
 
 .site-signin {
     display: flex;

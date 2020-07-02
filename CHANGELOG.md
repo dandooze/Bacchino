@@ -1,11 +1,16 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
-### [0.4.3] - 2020-06-29
+### [0.4.4] - 2020-07-02
+## New
+* Privacy policy in Sign-up
+
+
+### [0.4.3] - 2020-07-01
 ## New
 * Privacy policy in | Ghost out
 
-### [0.4.2] - 2020-06-29
+### [0.4.2] - 2020-07-01
 ## Fixed
 * Prices in membership and signup page
 

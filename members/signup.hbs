@@ -84,6 +84,15 @@
                     <span class="button-loader">{{> "icons/loader"}}</span>
                 </button>
             </div>
+            <div class="signup-privacy">
+                <input type="checkbox" id="acceptprivacy" name="privacy" required="true">
+                <label for="acceptprivacy">{{t "Accept privacy policy"}}
+                    &nbsp;<a href="https://www.iubenda.com/privacy-policy/94822888" class="iubenda-nostyle iubenda-embed"
+                        title="Privacy Policy ">leggila qui</a>
+                    <script
+                        type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+                </label>
+            </div>
             <p><small>{{t "Already have an account?"}} <a href="/signin/">{{t "Sign in"}}</a></small></p>
             <div class="message-success"><strong>{{t "Great!"}}</strong> {{t "Check your inbox and click the link to confirm your subscription"}}</div>
             <div class="message-error">{{t "Please enter a valid email address!"}}</div>
