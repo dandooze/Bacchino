@@ -1,6 +1,10 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
+### [0.4.5] - 2020-07-03
+## New
+* Fineprint footer
+
 ### [0.4.4] - 2020-07-02
 ## New
 * Privacy policy in Sign-up

@@ -2883,7 +2883,7 @@ Usage (In Ghost editor):
     font-family: var(--typo-sans);
     position: relative;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     color: #fff;
     background: color(var(--darkgrey) l(-5%));
 }
@@ -2895,6 +2895,8 @@ Usage (In Ghost editor):
     align-items: center;
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .site-footer-content a {
@@ -2912,6 +2914,15 @@ Usage (In Ghost editor):
 
 .site-footer .copyright a:first-child {
     padding: 0;
+}
+
+p.fineprint {
+    color: var(--midgrey);
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 32px;
+    text-align: center;
 }
 
 @media (max-width: 650px) {
