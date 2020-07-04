@@ -1,5 +1,8 @@
 routes:
   /: home
+  /rss/:
+    template: home-rss
+    content_type: text/xml
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
