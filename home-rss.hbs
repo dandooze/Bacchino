@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
     <channel>
-        <title>{{@site.title}}</title>
-        <description>{{@site.description}}</description>
+        <title>
+            <![CDATA[{{@site.title}}]]>
+        </title>
+        <description>
+            <![CDATA[{{@site.description}}]]>
+        </description>
         <link>{{@site.url}}</link>
-        <language>{{lang}}</language>
         <image>
             <url>{{@site.icon}}</url>
             <title>{{@site.title}}</title>
@@ -12,11 +15,12 @@
         </image>
         <generator>Ghost</generator>
         <lastBuildDate>{{date format="ddd, DD MMM YYYY HH:mm:ss ZZ"}}</lastBuildDate>
-        <copyright>{{@site.title}} Copyright {{date format="YYYY"}}</copyright>
         <atom:link href="{{@site.url}}/rss/" rel="self" type="application/rss+xml" />
+        <copyright>{{@site.title}} Copyright {{date format="YYYY"}}</copyright>
         
-        {{#get "posts" include="tags,authors" filter="tag:[blog,rivista]" order="published_at desc" as |item|}}
-        {{#foreach item}}
+        
+        {{#get "posts" include="tags,authors" filter="tag:[blog,rivista]" order="published_at desc"}}
+        {{#foreach posts visibility="all"}}
         <item>
             <title>{{title}}</title>
             <description>{{custom_excerpt}}</description>
@@ -36,13 +40,12 @@
                 {{name}} 
                 {{/foreach}}
             </dc:creator>
-            <description>{{custom_excerpt}}</description>
             <pubDate>{{date format="ddd, DD MMM YYYY HH:mm:ss ZZ"}}</pubDate>
             <media:content url="{{img_url feature_image size="xl"}}" medium="image" />
             <content:encoded>
                 <![CDATA[ {{content}} ]]>
             </content:encoded>
-            <enclosure url="{{img_url feature_image size="l"}}" type="image/jpeg"/>
+            <enclosure url="{{img_url feature_image size="l"}}" type="image/jpeg" length="7865"/>
         </item>
         {{/foreach}}
         {{/get}}

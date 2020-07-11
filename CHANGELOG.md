@@ -1,6 +1,20 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
+
+### [0.4.9] - 2020-07-11
+## Fix
+* Fineprint footer
+* Translations
+
+### [0.4.8] - 2020-07-07
+## Fix
+* Home Rss feed
+
+### [0.4.7] - 2020-07-05
+## Fix
+* Home Rss feed
+
 ### [0.4.6] - 2020-07-04
 ## New
 * Home Rss feed
