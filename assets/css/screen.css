@@ -3571,7 +3571,7 @@ form[data-members-form].error .message-error {
 
 .post-visibility-members,
 .post-visibility-paid {
-    display: none;
+    /* display: none; */
 }
 
 .post-upgrade-cta {

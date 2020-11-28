@@ -2,7 +2,7 @@
     "name": "bacchino",
     "description": "A fork of Lyra theme for Quaderno Pratese",
     "demo": "https://quadernopratese.it",
-    "version": "0.4.9",
+    "version": "0.5.0",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"

@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.5.0] - 2020-11-28
+## Fix
+* Post tags for subscribers and members
+
+
 ### [0.4.9] - 2020-07-11
 ## Fix
 * Fineprint footer
