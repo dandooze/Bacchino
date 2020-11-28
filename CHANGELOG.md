@@ -2,8 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.5.0] - 2020-11-28
+### [0.5.1] - 2020-11-28
 ## Fix
+* Fixed members label
+
+### [0.5.0] - 2020-11-28
+## New
 * Post tags for subscribers and members
 
 
